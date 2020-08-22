@@ -22,3 +22,8 @@ try {
 # Powershell Functions
 . (Join-Path $PSScriptRoot ".\PowershellModule\Get-DuplicatedModules.ps1")
 . (Join-Path $PSScriptRoot ".\PowershellModule\Remove-DuplicatedModules.ps1")
+
+
+# MaKoContainerHelper Functions
+. (Join-Path $PSScriptRoot ".\MaKoContainerHelper\Install-BCcontainerhelper.ps1") 
+
